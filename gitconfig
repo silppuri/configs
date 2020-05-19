@@ -1,0 +1,22 @@
+[user]
+	email = petri.avikainen@gmail.com
+	name = Petri Avikainen
+[push]
+	default = current
+[github]
+	user = silppuri
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	br = branch
+	lg = log
+    l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ctags = !.git/hooks/ctags
+	g = grep --break --heading --line-number
+[color]
+	ui = auto
+[core]
+	editor = nvim
+[merge]
+	tool = vimdiff
