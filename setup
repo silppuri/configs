@@ -1,0 +1,15 @@
+#!/bin/bash
+
+backup=.backup
+files="vimrc zshrc tmux.conf gitconfig"
+
+echo "creating directory for backups in" $HOME
+mkdir -p $backup
+echo "...done"
+
+for file in $files; do
+  echo "moving existing confs of $file from $HOME to $backup"
+  mv -n $HOME/.$file $backup
+  echo "creating symlinks to $file in home directory"
+  ln -sf $PWD/$file $HOME/.$file
+done
