@@ -1,0 +1,22 @@
+{
+    "window.zoomLevel": 1,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Night Owl",
+    "editor.fontFamily": "Jetbrains Mono Regular,Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.enablePreview": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
